@@ -1,7 +1,7 @@
 const forma = document.querySelector('.feedback-form');
 const email = document.querySelector('input[name="email"]');
 const mess = document.querySelector('textarea[name="message"]');
-
+//up
 const delay = require('lodash.throttle');
 fillingFields() 
 forma.addEventListener('input', delay((setLocalStorage), 500))
